@@ -10,17 +10,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  #directors_database[0][:movies][0]
   row_index = 0
-  while row_index < directors_database.length do
-    puts "Row #{row_index} contains #{directors_database[row_index]}."
-    
-    column_index = 0 
-    while column_index < directors_database[row_index].length do 
-      puts "Row #{row_index}, Column #{column_index} contains #{directors_database[row_index][column_index]}."
-      column_index += 1
-    end 
-    
-    
-    row_index += 1
+  directors_database[0][:movies][0]
   end
 end
