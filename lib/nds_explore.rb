@@ -13,5 +13,4 @@ def print_first_directors_movie_titles
   #directors_database[0][:movies][0]
   row_index = 0
   directors_database[0][:movies][0]
-  end
 end
